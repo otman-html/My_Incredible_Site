@@ -1,0 +1,112 @@
+body{
+	margin: 0;
+	font-family: inherit;
+	background-color: tan ;
+	font-family: cursive;
+
+}
+header{
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+	font-size: 12px;
+	background-color: beige;
+	font-family: cursive;
+}
+section{margin: 0;
+	padding: 10px;
+	text-align:left;
+	background-color: beige;
+	font-family: cursive;
+}
+.bold{
+	font-weight: bold;
+}
+.colonne{
+	display: flex;
+}
+.primacolonna{
+order:0;
+flex-grow: 1;
+}
+.secondacolonna{
+	order:1;
+	flex-grow: 1;
+}
+
+aside{
+	width: 40%;
+	padding: 10px;
+	order: 0;
+	flex-grow: 1;
+}
+aside img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+}
+article{
+	padding: 10px;
+	font-family: Tahoma;
+	order: 1;
+	flex-grow: 1;
+	background-color: beige;
+
+}
+footer{
+	font-family: Tahoma;
+	color: white;
+	background-color: tan;
+	font-size: 18px;
+	text-align: center;
+}
+.border{
+	border-style: dotted;
+	border-width: thick;
+	
+}
+.border2{
+	border-style: double;
+	border-color: floralwhite;
+}
+#hidden-list {
+	display: none;
+}
+article img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+	position: absolute;
+	right: 0;
+}
+h1{
+		font-family: cursive; 
+		text-align: center; 
+		color: tan;
+		font-size: 40px}
+span1{
+	font-family: cursive; 
+		text-align: center; 
+		color: tan;
+		font-size: 16px;
+}
+h2{
+	font-family: cursive; 
+		text-align: center; 
+		text-decoration: underline;
+		color: tan;
+}
+span2{
+	font-family: cursive; 
+	color: black;
+}
+button{
+		background-color: tan;
+		width: 200px;
+		height: 40px;
+		font-family: bolder;
+		font-size: 18px;
+		font: bolder;
+		border-radius: 50%;
+	}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Il 600</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1 id="uno">Il '600</h1>
+		<p><span1>Il 1600 è stato un periodo di innovazioni sia scientifiche che matematiche. In questo sito approfondiremo la maggiorparte delle sfaccettature di questo secolo meraviglioso<span1></p>
+	</header>
+<section>
+	<h2>La situazione storica:</h2>
+	<p>
+		Il seicento fu un periodo di profondi cambiamenti, politici, scientifici e culturali.<br>L'Europa seicentesca era divisa tra le grandi potenze emergenti:
+		<ul>
+			<li>Francia;</li>
+			<li>Spagna;</li>
+			<li>Inghilterra;</li>
+			<li>Austria.</li>
+		</ul>
+	Sarà proprio quest'ultima a essere la protagonista indiscussa del conflitto militare passato alla storia come la <span class="bold">Guerra dei Trent'anni"</span>, che avrà come conseguenze la suddivisione del territorio tedesco in 350 stati ed un indebolimento, causato da un calo demografico di tutti i paesi coinvolti, eccezion fatta per la Francia. <br>
+	Infatti proprio questo paese vedrà la nascita di una nuova forma di governo nel quale il potere è detenuto nella sua totalità dal re, tale politica prenderà il nome di Assolutismo e sarà sviluppata ed incarnata dal Re Sole Luigi VIX.<br>
+	L'accentramento dei poteri non sarà, tuttavia, un esclusiva Francese; difatti persino in Inghilterra, nel regno di Giacomo I Stuart, vedremo un tentativo di assolutismo che porterà alla <span class="bold">Guerra Civile Inglese</span>. <br>
+	Dal punto di vista scientifico lo scienziato italiano <span class="bold">Galileo Galilei</span> formula il metodo scientifico o sperimentale, fodamento di tutte le scienze future ed elemento imprenscindibile per l'approccio allo studio di qualsiasi materia scientifica. Il 600 è ricordato come il secolo della <span class="bold">peste</span>, una delle epidemie più devastanti della sotria, descritta con dovizia di particolari da Alessandro Manzoni ne "I promessi sposi", attraverso l'analisi approfondita di fonti e documenti dell'epoca, tramite i quali è possibile percepire la potenza della devastante malattia, portata dai Lanzichenecchi nel nord Italia. <br>
+	L'impronta del pittore <span class="bold">Caravaggio</span>, pseudonimo di Michelangelo Meriis, operante a cavallo tra la fine del '500 e l'inizio del '600, influenza tutta l'arte del secolo. Merisi è il pittore che fa del chiaroscuro un elemento per esaltare la drammaticità dei tratti e delle situazioni che, attraverso la rappresentante della realtà con soggetti del popolo, trasforma l'idea stessa della pittura, vista come elemento che si ricollega alla realtà dell'essere umano e non a un idealizzazione dell'arte.
+	</p>
+	<button id="pulsante">Mostra/nascondi elenco</button>
+</section>
+<div class="colonne">
+	<div>
+		<aside> <img src="mappasito.jpg" alt="Mappa dell'europa seicentesca"> </aside>
+    </div>
+<div id="hidden-list">
+	<ul>Approfondimenti:
+		<li><a href="la_guerra_dei_trentanni.html">La guerra dei trent'anni</a></li>
+		<li><a href="RoyalSociety.html">Royal Society</a></li>
+		<li><a href="Galileo_Galilei.html">Galileo Galilei</a></li>
+		<li><a href="peste.html">La peste</a></li>
+		<li><a href="arte.html">Michelangelo Merisi, Caravaggio</a></li>
+		<li><a href="fisica_def.html">Le leggi di Keplero</a></li>
+	</ul>
+</div>
+</div>
+<script type="text/javascript">
+	const hiddenList = document.getElementById('hidden-list');
+	const Pulasante = document.getElementById('pulsante');
+
+	function PIGIAMENTO() {
+		if (hiddenList.style.display === 'none' || hiddenList.style.display === ''){ 
+			hiddenList.style.display = 'block'; 
+	} else{
+		hiddenList.style.display = 'none';
+	}
+}
+
+pulsante.addEventListener('click', PIGIAMENTO);
+</script>
+<footer> Realizzato da: Niccolò Grilli, Flora Davide, Otman Maidan, Naima Groppo</footer>
+
+
